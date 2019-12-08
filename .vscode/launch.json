@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ServerGreeter",
+            "request": "launch",
+            "mainClass": "_01_Intro_To_Sockets.server.ServerGreeter",
+            "projectName": "Level5-Module3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ClientGreeter",
+            "request": "launch",
+            "mainClass": "_01_Intro_To_Sockets.client.ClientGreeter",
+            "projectName": "Level5-Module3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ButtonClicker",
+            "request": "launch",
+            "mainClass": "_00_Click_Chat.gui.ButtonClicker",
+            "projectName": "Level5-Module3"
+        }
+    ]
+}
