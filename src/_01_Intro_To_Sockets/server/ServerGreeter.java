@@ -2,7 +2,7 @@ package _01_Intro_To_Sockets.server;
 
 import java.net.*;
 
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 import java.io.*;
 
@@ -37,7 +37,7 @@ public class ServerGreeter extends Thread {
 				// serverSocket.accept();
 				// Change serverSocket to match the ServerSocket member variable you created in
 				// step 1.
-				// The program will wait her until either a client connects or the timeout
+				// The program will wait here until either a client connects or the timeout
 				// expires.
 				Socket socket = serverSocket.accept();
 
@@ -73,7 +73,7 @@ public class ServerGreeter extends Thread {
 			// 7. If the program catches a IOException, let the user know about it and set
 			// the loop's boolean variable to false.
 			catch (IOException e) {
-				System.out.println("IOExcpetion");
+				System.out.println("IOException");
 				b = false;
 			}
 		}
