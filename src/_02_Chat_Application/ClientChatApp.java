@@ -10,7 +10,7 @@ public class ClientChatApp {
    public static void main(String [] args) {
      //1. Create a String for the ip address of the server. 
 	  // If you don't know how to find a computer's ip address, ask about ifconfig on linux/mac and ipconfig on windows.
-      String ipa = "192.168.1.122";
+      String ipa = "192.168.1.151";
 
       //2. Create an integer for the server's port number
       int pn = 8080;

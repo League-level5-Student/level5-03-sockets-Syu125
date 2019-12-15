@@ -3,6 +3,7 @@ package _02_Chat_Application;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
@@ -34,7 +35,8 @@ public class ChatApp extends Thread {
     }
 
     public ChatApp() throws IOException {
-        serverSocket = new ServerSocket(8080);
+        System.out.println( InetAddress.getLocalHost().getHostAddress());
+        serverSocket = new ServerSocket(8010);
 
     }
 

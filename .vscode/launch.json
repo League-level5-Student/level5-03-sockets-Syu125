@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ClientChatApp",
+            "request": "launch",
+            "mainClass": "_02_Chat_Application.ClientChatApp",
+            "projectName": "Level5-Module3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ChatApp",
+            "request": "launch",
+            "mainClass": "_02_Chat_Application.ChatApp",
+            "projectName": "Level5-Module3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ServerGreeter",
             "request": "launch",
             "mainClass": "_01_Intro_To_Sockets.server.ServerGreeter",
